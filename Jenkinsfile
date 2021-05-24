@@ -12,7 +12,7 @@ pipeline {
     	    		steps{
 				//this step clones an existing github project into your working directory
 				//this lab uses the spring-petclinic application	
-            			git 'https://github.com/admiralappsec/spring-petclinic-FIXED.git'   
+            			git 'https://github.com/admiralappsec/spring-petclinic-FIXED.git' //<REPLACE THIS REPOSITORY WITH YOUR OWN - JAVA-BASED APPLICATION>  
     	    		}
     	 	}
 		stage('Build') {
